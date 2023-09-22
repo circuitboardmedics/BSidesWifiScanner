@@ -4,21 +4,33 @@
 BSidesWifiScanner is a Wi-Fi scanner project designed for embedded systems. It features modular button handling, a timer for fields, and a page manager for different UI screens.
 
 ## Prerequisites
-- Arduino IDE or PlatformIO
+- Visual Studio Code
+- PlatformIO IDE extension
 - ESP8266 or compatible board
-- Required libraries (e.g., ESP8266WiFi)
 
-## Setup Environment
-1. **Download and Install IDE**: Download and install the Arduino IDE or PlatformIO.
-2. **Install Board Support**: Go to `Tools > Board > Boards Manager` and install support for ESP8266.
-3. **Install Libraries**: Install required libraries via `Sketch > Include Library > Manage Libraries`.
+## Setup Environment Using Visual Studio Code and PlatformIO
+
+1. **Install Visual Studio Code**: Download and install [Visual Studio Code](https://code.visualstudio.com/).
+
+2. **Install PlatformIO**: Open Visual Studio Code, go to Extensions and search for "PlatformIO IDE". Install it.
+
+3. **Clone the Repository**: Clone this repository to your local machine using Git.
+
+4. **Open the Project**: Open Visual Studio Code and navigate to `File > Open Folder` and select the cloned repository folder.
+
+5. **PlatformIO Initialization**: The repository contains a [`platformio.ini`](https://github.com/circuitboardmedics/BSidesWifiScanner/blob/main/platformio.ini) file that specifies the board and dependencies. PlatformIO should automatically recognize this.
+
+6. **Install Dependencies**: PlatformIO will automatically install the required libraries specified in `platformio.ini`.
 
 ## Flashing the Code
-1. **Clone the Repository**: Clone this repository to your local machine.
-2. **Open the Project**: Open the `.ino` or `.cpp` file in your IDE.
-3. **Configure Settings**: Update Wi-Fi credentials or other settings in the code if necessary.
-4. **Select Board and Port**: Go to `Tools > Board` to select your board and `Tools > Port` to select the COM port.
-5. **Compile and Upload**: Click on the `Upload` button to compile and flash the code to your board.
+
+1. **Select Environment**: In PlatformIO Home, select the environment that matches your board. The default in `platformio.ini` is `d1_mini`.
+
+2. **Build the Project**: Click on the "Build" button (checkmark icon) in the PlatformIO toolbar at the bottom.
+
+3. **Upload the Code**: After a successful build, click on the "Upload" button (right arrow icon) in the PlatformIO toolbar to flash the code to your board.
+
+4. **Monitor Serial Output**: Optionally, you can open the Serial Monitor by clicking on the "Serial Monitor" button (plug icon) in the PlatformIO toolbar to view debug output.
 
 ## Usage
 After flashing, the device will start scanning for Wi-Fi networks and display them on the screen. Use the buttons to navigate through different pages.
