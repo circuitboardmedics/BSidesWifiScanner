@@ -1,7 +1,10 @@
 # BSidesWifiScanner
 
+![BSidesKit](https://github.com/circuitboardmedics/BSidesWifiScanner/assets/5779011/e2b1d360-d259-46aa-b84c-78f1aae5670e)
+
+
 ## Overview
-BSidesWifiScanner is a Wi-Fi scanner project designed for embedded systems. It features modular button handling, a timer for fields, and a page manager for different UI screens.
+BSidesWifiScanner is a specialized Wi-Fi scanner designed and commissioned for the BSides 2023 Cybersecurity conference in Greenville, SC. The device is capable of scanning for Wi-Fi networks and graphically displaying the signal strength of individual networks. It features modular button handling, a timer for fields, and a page manager for different UI screens.
 
 ## Prerequisites
 - Visual Studio Code
@@ -33,4 +36,9 @@ BSidesWifiScanner is a Wi-Fi scanner project designed for embedded systems. It f
 4. **Monitor Serial Output**: Optionally, you can open the Serial Monitor by clicking on the "Serial Monitor" button (plug icon) in the PlatformIO toolbar to view debug output.
 
 ## Usage
-After flashing, the device will start scanning for Wi-Fi networks and display them on the screen. Use the buttons to navigate through different pages.
+After flashing, the device will start scanning for Wi-Fi networks and display a graphical representation of the signal strength for individual networks. Use the buttons to navigate through different pages.
+
+![BSidesSplashScreen](https://github.com/circuitboardmedics/BSidesWifiScanner/assets/5779011/af4b3a4e-02b9-40b3-b173-609eae94fc86)
+![BSidesSelect](https://github.com/circuitboardmedics/BSidesWifiScanner/assets/5779011/e0134b6d-a24f-4a62-9546-30c748888c46)
+![BSidesGraph](https://github.com/circuitboardmedics/BSidesWifiScanner/assets/5779011/b9c0b4c6-5811-4503-af9f-f0507ae3750a)
+
