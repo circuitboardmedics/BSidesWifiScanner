@@ -4,7 +4,19 @@
 
 
 ## Overview
-BSidesWifiScanner is a specialized Wi-Fi scanner designed and commissioned for the BSides 2023 Cybersecurity conference in Greenville, SC. The device is capable of scanning for Wi-Fi networks and graphically displaying the signal strength of individual networks. It features modular button handling, a timer for fields, and a page manager for different UI screens.
+BSidesWifiScanner is a custom project commisioned by and designed for the [BSides 2023 Cybersecurity conference](https://www.bsidesgreenville.org/) in Greenville, SC. The device is capable of scanning for Wi-Fi networks, displaying the AP's MAC, the network's encryption type, as well as the current channel and RSSI.  It can also graphically displaying the signal strength of individual networks. The firmware features modular button handling, a timer for display fields, and a page manager for different UI screens.
+
+### Bill Of Materials:
+- [WeMos D1 Mini microcontroller](https://www.amazon.com/s?k=wemos+d1+mini)
+- [1.3 Inch IIC I2C OLED Display Module 128x64 Pixel SH1106 Screen Module](https://www.amazon.com/gp/product/B0C3L7N917/)
+- [SPST Micro Switch](https://www.amazon.com/gp/product/B07BD1SPYG)
+- ~100uF Electrolytic capacitor
+- CR123 Battery
+
+KiCad design files for the PCB are included in the .zip.
+
+
+# Programming Instructions
 
 ## Prerequisites
 - Visual Studio Code
@@ -35,10 +47,9 @@ BSidesWifiScanner is a specialized Wi-Fi scanner designed and commissioned for t
 
 4. **Monitor Serial Output**: Optionally, you can open the Serial Monitor by clicking on the "Serial Monitor" button (plug icon) in the PlatformIO toolbar to view debug output.
 
-## Usage
+# Usage
 After flashing, the device will start scanning for Wi-Fi networks and display a graphical representation of the signal strength for individual networks. Use the buttons to navigate through different pages.
 
-![BSidesSplashScreen](https://github.com/circuitboardmedics/BSidesWifiScanner/assets/5779011/af4b3a4e-02b9-40b3-b173-609eae94fc86)
+![bsides1](https://github.com/circuitboardmedics/BSidesWifiScanner/assets/39735406/03e90326-5ef2-4477-9201-dd1ca8c2671a)
 ![BSidesSelect](https://github.com/circuitboardmedics/BSidesWifiScanner/assets/5779011/e0134b6d-a24f-4a62-9546-30c748888c46)
 ![BSidesGraph](https://github.com/circuitboardmedics/BSidesWifiScanner/assets/5779011/b9c0b4c6-5811-4503-af9f-f0507ae3750a)
-
