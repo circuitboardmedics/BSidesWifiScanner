@@ -3,20 +3,24 @@
 ![BSidesKit](https://github.com/circuitboardmedics/BSidesWifiScanner/assets/5779011/e2b1d360-d259-46aa-b84c-78f1aae5670e)
 
 
-## Overview
+# Overview
 BSidesWifiScanner is a custom project commisioned by and designed for the [BSides 2023 Cybersecurity conference](https://www.bsidesgreenville.org/) in Greenville, SC. The device is capable of scanning for Wi-Fi networks, displaying the AP's MAC, the network's encryption type, as well as the current channel and RSSI.  It can also graphically displaying the signal strength of individual networks. The firmware features modular button handling, a timer for display fields, and a page manager for different UI screens.
 
-### Bill Of Materials:
+## Assembly
+[![Assembly Video](http://img.youtube.com/vi/cxqOrxhz6VQ/0.jpg)](http://www.youtube.com/watch?v=cxqOrxhz6VQ "Badge Assembly Video")
+
+## Bill Of Materials:
 - [WeMos D1 Mini microcontroller](https://www.amazon.com/s?k=wemos+d1+mini)
 - [1.3 Inch IIC I2C OLED Display Module 128x64 Pixel SH1106 Screen Module](https://www.amazon.com/gp/product/B0C3L7N917/)
 - [SPST Micro Switch](https://www.amazon.com/gp/product/B07BD1SPYG)
 - ~100uF Electrolytic capacitor
 - CR123 Battery
 
+## PCB
 KiCad design files for the PCB are included in the .zip.
 
 
-# Programming Instructions
+# Programming 
 
 ## Prerequisites
 - Visual Studio Code
@@ -53,3 +57,6 @@ After flashing, the device will start scanning for Wi-Fi networks and display a 
 ![bsides1](https://github.com/circuitboardmedics/BSidesWifiScanner/assets/39735406/03e90326-5ef2-4477-9201-dd1ca8c2671a)
 ![BSidesSelect](https://github.com/circuitboardmedics/BSidesWifiScanner/assets/5779011/e0134b6d-a24f-4a62-9546-30c748888c46)
 ![BSidesGraph](https://github.com/circuitboardmedics/BSidesWifiScanner/assets/5779011/b9c0b4c6-5811-4503-af9f-f0507ae3750a)
+
+
+</div>
