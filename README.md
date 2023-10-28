@@ -4,7 +4,7 @@
 
 
 # Overview
-BSidesWifiScanner is a custom project commisioned by and designed for the [BSides 2023 Cybersecurity conference](https://www.bsidesgreenville.org/) in Greenville, SC. The device is capable of scanning for Wi-Fi networks, displaying the AP's MAC, the network's encryption type, as well as the current channel and RSSI.  It can also graphically displaying the signal strength of individual networks. The firmware features modular button handling, a timer for display fields, and a page manager for different UI screens.
+BSidesWifiScanner is a custom project commisioned by and designed for the [BSides 2023 Cybersecurity conference](https://www.bsidesgreenville.org/) in Greenville, SC. The device is capable of scanning for Wi-Fi networks, displaying the AP's MAC, the network's encryption type, as well as the current channel and RSSI.  It can also graphically display the signal strength of individual networks. The firmware features modular button handling, a timer for display fields, and a page manager for different UI screens.
 
 ## Assembly
 [![Assembly Video](http://img.youtube.com/vi/cxqOrxhz6VQ/0.jpg)](http://www.youtube.com/watch?v=cxqOrxhz6VQ "Badge Assembly Video")
